@@ -15,6 +15,7 @@
 		AA4A8E061A4A7D9800B9AC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4A8E051A4A7D9800B9AC78 /* Images.xcassets */; };
 		AA4A8E091A4A7D9800B9AC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4A8E071A4A7D9800B9AC78 /* LaunchScreen.xib */; };
 		AA4A8E151A4A7D9800B9AC78 /* TestImaginamosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E141A4A7D9800B9AC78 /* TestImaginamosTests.m */; };
+		AA4A8E211A4A80D400B9AC78 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E201A4A80D400B9AC78 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		AA4A8E0E1A4A7D9800B9AC78 /* TestImaginamosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestImaginamosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4A8E131A4A7D9800B9AC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4A8E141A4A7D9800B9AC78 /* TestImaginamosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestImaginamosTests.m; sourceTree = "<group>"; };
+		AA4A8E1F1A4A80D400B9AC78 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AA4A8E201A4A80D400B9AC78 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		AA4A8DF41A4A7D9800B9AC78 /* TestImaginamos */ = {
 			isa = PBXGroup;
 			children = (
+				AA4A8E1E1A4A80C100B9AC78 /* Classes */,
 				AA4A8DF91A4A7D9800B9AC78 /* AppDelegate.h */,
 				AA4A8DFA1A4A7D9800B9AC78 /* AppDelegate.m */,
 				AA4A8DFF1A4A7D9800B9AC78 /* ViewController.h */,
@@ -120,6 +124,15 @@
 				AA4A8E131A4A7D9800B9AC78 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA4A8E1E1A4A80C100B9AC78 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA4A8E1F1A4A80D400B9AC78 /* BaseViewController.h */,
+				AA4A8E201A4A80D400B9AC78 /* BaseViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA4A8DFB1A4A7D9800B9AC78 /* AppDelegate.m in Sources */,
+				AA4A8E211A4A80D400B9AC78 /* BaseViewController.m in Sources */,
 				AA4A8DF81A4A7D9800B9AC78 /* main.m in Sources */,
 				AA4A8E011A4A7D9800B9AC78 /* ViewController.m in Sources */,
 				AA4A8DFE1A4A7D9800B9AC78 /* TestImaginamos.xcdatamodeld in Sources */,
