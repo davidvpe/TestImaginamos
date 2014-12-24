@@ -24,4 +24,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(goToMainView) userInfo:nil repeats:NO];
+}
+
+-(void)goToMainView
+{
+    [self performSegueWithIdentifier:@"finishedSplash" sender:nil];
+}
+
 @end

@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IMABaseViewController.h"
 
-@interface IMAViewController : IMABaseViewController
+@interface IMAViewController : UIViewController
 
 
 @end
