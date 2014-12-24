@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Imaginamos. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "IMAAppDelegate.h"
 
-@interface AppDelegate ()
+@interface IMAAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation IMAAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

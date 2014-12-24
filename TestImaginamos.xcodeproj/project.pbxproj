@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AA4A8DF81A4A7D9800B9AC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8DF71A4A7D9800B9AC78 /* main.m */; };
-		AA4A8DFB1A4A7D9800B9AC78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8DFA1A4A7D9800B9AC78 /* AppDelegate.m */; };
+		AA4A8DFB1A4A7D9800B9AC78 /* IMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8DFA1A4A7D9800B9AC78 /* IMAAppDelegate.m */; };
 		AA4A8DFE1A4A7D9800B9AC78 /* TestImaginamos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8DFC1A4A7D9800B9AC78 /* TestImaginamos.xcdatamodeld */; };
-		AA4A8E011A4A7D9800B9AC78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E001A4A7D9800B9AC78 /* ViewController.m */; };
+		AA4A8E011A4A7D9800B9AC78 /* IMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E001A4A7D9800B9AC78 /* IMAViewController.m */; };
 		AA4A8E041A4A7D9800B9AC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4A8E021A4A7D9800B9AC78 /* Main.storyboard */; };
 		AA4A8E061A4A7D9800B9AC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4A8E051A4A7D9800B9AC78 /* Images.xcassets */; };
 		AA4A8E091A4A7D9800B9AC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4A8E071A4A7D9800B9AC78 /* LaunchScreen.xib */; };
 		AA4A8E151A4A7D9800B9AC78 /* TestImaginamosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E141A4A7D9800B9AC78 /* TestImaginamosTests.m */; };
-		AA4A8E211A4A80D400B9AC78 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E201A4A80D400B9AC78 /* BaseViewController.m */; };
+		AA4A8E211A4A80D400B9AC78 /* IMABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8E201A4A80D400B9AC78 /* IMABaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +32,19 @@
 		AA4A8DF21A4A7D9800B9AC78 /* TestImaginamos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImaginamos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4A8DF61A4A7D9800B9AC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4A8DF71A4A7D9800B9AC78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA4A8DF91A4A7D9800B9AC78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AA4A8DFA1A4A7D9800B9AC78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA4A8DF91A4A7D9800B9AC78 /* IMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAAppDelegate.h; sourceTree = "<group>"; };
+		AA4A8DFA1A4A7D9800B9AC78 /* IMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAAppDelegate.m; sourceTree = "<group>"; };
 		AA4A8DFD1A4A7D9800B9AC78 /* TestImaginamos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestImaginamos.xcdatamodel; sourceTree = "<group>"; };
-		AA4A8DFF1A4A7D9800B9AC78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA4A8E001A4A7D9800B9AC78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA4A8DFF1A4A7D9800B9AC78 /* IMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAViewController.h; sourceTree = "<group>"; };
+		AA4A8E001A4A7D9800B9AC78 /* IMAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAViewController.m; sourceTree = "<group>"; };
 		AA4A8E031A4A7D9800B9AC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA4A8E051A4A7D9800B9AC78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AA4A8E081A4A7D9800B9AC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AA4A8E0E1A4A7D9800B9AC78 /* TestImaginamosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestImaginamosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4A8E131A4A7D9800B9AC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA4A8E141A4A7D9800B9AC78 /* TestImaginamosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestImaginamosTests.m; sourceTree = "<group>"; };
-		AA4A8E1F1A4A80D400B9AC78 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		AA4A8E201A4A80D400B9AC78 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AA4A8E1F1A4A80D400B9AC78 /* IMABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMABaseViewController.h; sourceTree = "<group>"; };
+		AA4A8E201A4A80D400B9AC78 /* IMABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMABaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				AA4A8E1E1A4A80C100B9AC78 /* Classes */,
-				AA4A8DF91A4A7D9800B9AC78 /* AppDelegate.h */,
-				AA4A8DFA1A4A7D9800B9AC78 /* AppDelegate.m */,
-				AA4A8DFF1A4A7D9800B9AC78 /* ViewController.h */,
-				AA4A8E001A4A7D9800B9AC78 /* ViewController.m */,
+				AA4A8DF91A4A7D9800B9AC78 /* IMAAppDelegate.h */,
+				AA4A8DFA1A4A7D9800B9AC78 /* IMAAppDelegate.m */,
+				AA4A8DFF1A4A7D9800B9AC78 /* IMAViewController.h */,
+				AA4A8E001A4A7D9800B9AC78 /* IMAViewController.m */,
 				AA4A8E021A4A7D9800B9AC78 /* Main.storyboard */,
 				AA4A8E051A4A7D9800B9AC78 /* Images.xcassets */,
 				AA4A8E071A4A7D9800B9AC78 /* LaunchScreen.xib */,
@@ -129,8 +129,8 @@
 		AA4A8E1E1A4A80C100B9AC78 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AA4A8E1F1A4A80D400B9AC78 /* BaseViewController.h */,
-				AA4A8E201A4A80D400B9AC78 /* BaseViewController.m */,
+				AA4A8E1F1A4A80D400B9AC78 /* IMABaseViewController.h */,
+				AA4A8E201A4A80D400B9AC78 /* IMABaseViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -179,6 +179,7 @@
 		AA4A8DEA1A4A7D9700B9AC78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IMA;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Imaginamos;
 				TargetAttributes = {
@@ -235,10 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4A8DFB1A4A7D9800B9AC78 /* AppDelegate.m in Sources */,
-				AA4A8E211A4A80D400B9AC78 /* BaseViewController.m in Sources */,
+				AA4A8DFB1A4A7D9800B9AC78 /* IMAAppDelegate.m in Sources */,
+				AA4A8E211A4A80D400B9AC78 /* IMABaseViewController.m in Sources */,
 				AA4A8DF81A4A7D9800B9AC78 /* main.m in Sources */,
-				AA4A8E011A4A7D9800B9AC78 /* ViewController.m in Sources */,
+				AA4A8E011A4A7D9800B9AC78 /* IMAViewController.m in Sources */,
 				AA4A8DFE1A4A7D9800B9AC78 /* TestImaginamos.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

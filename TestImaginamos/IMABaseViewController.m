@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Imaginamos. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "IMABaseViewController.h"
 
-@interface BaseViewController ()
+@interface IMABaseViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation IMABaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
