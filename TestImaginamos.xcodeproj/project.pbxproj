@@ -13,6 +13,10 @@
 		494C10DE1A4DE20600664E17 /* IMANetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10DD1A4DE20600664E17 /* IMANetworkEngine.m */; };
 		494C10E21A4DE44500664E17 /* NSDictionary+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10E11A4DE44500664E17 /* NSDictionary+Utility.m */; };
 		494C10EA1A4DE74B00664E17 /* IMASplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10E91A4DE74B00664E17 /* IMASplashViewController.m */; };
+		494C10EE1A4DEB3700664E17 /* IMACategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10ED1A4DEB3700664E17 /* IMACategoriesViewController.m */; };
+		494C10F31A4DF37900664E17 /* DishModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10F21A4DF37900664E17 /* DishModel.m */; };
+		494C10F61A4DF37C00664E17 /* SubCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10F51A4DF37C00664E17 /* SubCategoryModel.m */; };
+		494C10F91A4DF37C00664E17 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C10F81A4DF37C00664E17 /* CategoryModel.m */; };
 		A48D8F2AAA8503D061278989 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E6D7B7F6F005603981EA9E /* libPods.a */; };
 		AA4A8DF81A4A7D9800B9AC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8DF71A4A7D9800B9AC78 /* main.m */; };
 		AA4A8DFB1A4A7D9800B9AC78 /* IMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4A8DFA1A4A7D9800B9AC78 /* IMAAppDelegate.m */; };
@@ -48,6 +52,14 @@
 		494C10E11A4DE44500664E17 /* NSDictionary+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Utility.m"; path = "Miscellaneous/Categories/NSDictionary+Utility.m"; sourceTree = "<group>"; };
 		494C10E81A4DE74B00664E17 /* IMASplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMASplashViewController.h; path = ViewControllers/Splash/IMASplashViewController.h; sourceTree = "<group>"; };
 		494C10E91A4DE74B00664E17 /* IMASplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMASplashViewController.m; path = ViewControllers/Splash/IMASplashViewController.m; sourceTree = "<group>"; };
+		494C10EC1A4DEB3700664E17 /* IMACategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMACategoriesViewController.h; path = ViewControllers/Categories/IMACategoriesViewController.h; sourceTree = "<group>"; };
+		494C10ED1A4DEB3700664E17 /* IMACategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IMACategoriesViewController.m; path = ViewControllers/Categories/IMACategoriesViewController.m; sourceTree = "<group>"; };
+		494C10F11A4DF37900664E17 /* DishModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DishModel.h; path = Resources/Models/DishModel.h; sourceTree = "<group>"; };
+		494C10F21A4DF37900664E17 /* DishModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DishModel.m; path = Resources/Models/DishModel.m; sourceTree = "<group>"; };
+		494C10F41A4DF37C00664E17 /* SubCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubCategoryModel.h; path = Resources/Models/SubCategoryModel.h; sourceTree = "<group>"; };
+		494C10F51A4DF37C00664E17 /* SubCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubCategoryModel.m; path = Resources/Models/SubCategoryModel.m; sourceTree = "<group>"; };
+		494C10F71A4DF37C00664E17 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryModel.h; path = Resources/Models/CategoryModel.h; sourceTree = "<group>"; };
+		494C10F81A4DF37C00664E17 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryModel.m; path = Resources/Models/CategoryModel.m; sourceTree = "<group>"; };
 		8D23F6F2A17A53383EEFD052 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AA4A8DF21A4A7D9800B9AC78 /* TestImaginamos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImaginamos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4A8DF61A4A7D9800B9AC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,6 +149,7 @@
 		494C10E31A4DE6B300664E17 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				494C10EB1A4DE7B500664E17 /* Categories */,
 				494C10E41A4DE6FF00664E17 /* Splash */,
 			);
 			name = ViewControllers;
@@ -149,6 +162,36 @@
 				494C10E91A4DE74B00664E17 /* IMASplashViewController.m */,
 			);
 			name = Splash;
+			sourceTree = "<group>";
+		};
+		494C10EB1A4DE7B500664E17 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				494C10EC1A4DEB3700664E17 /* IMACategoriesViewController.h */,
+				494C10ED1A4DEB3700664E17 /* IMACategoriesViewController.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		494C10EF1A4DF34000664E17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				494C10F01A4DF34F00664E17 /* Models */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		494C10F01A4DF34F00664E17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				494C10F71A4DF37C00664E17 /* CategoryModel.h */,
+				494C10F81A4DF37C00664E17 /* CategoryModel.m */,
+				494C10F41A4DF37C00664E17 /* SubCategoryModel.h */,
+				494C10F51A4DF37C00664E17 /* SubCategoryModel.m */,
+				494C10F11A4DF37900664E17 /* DishModel.h */,
+				494C10F21A4DF37900664E17 /* DishModel.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		AA4A8DE91A4A7D9700B9AC78 = {
@@ -174,6 +217,7 @@
 		AA4A8DF41A4A7D9800B9AC78 /* TestImaginamos */ = {
 			isa = PBXGroup;
 			children = (
+				494C10EF1A4DF34000664E17 /* Resources */,
 				494C10E31A4DE6B300664E17 /* ViewControllers */,
 				494C10DA1A4DDECD00664E17 /* PrefixHeader.pch */,
 				494C10C71A4DB8ED00664E17 /* Miscellaneous */,
@@ -367,14 +411,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494C10EE1A4DEB3700664E17 /* IMACategoriesViewController.m in Sources */,
 				494C10EA1A4DE74B00664E17 /* IMASplashViewController.m in Sources */,
+				494C10F31A4DF37900664E17 /* DishModel.m in Sources */,
 				494C10D41A4DBB9D00664E17 /* IMABaseManager.m in Sources */,
+				494C10F91A4DF37C00664E17 /* CategoryModel.m in Sources */,
 				494C10E21A4DE44500664E17 /* NSDictionary+Utility.m in Sources */,
 				494C10D31A4DBB9D00664E17 /* IMAAPIManager.m in Sources */,
 				494C10D71A4DBC0600664E17 /* IMAError.m in Sources */,
 				AA4A8DFB1A4A7D9800B9AC78 /* IMAAppDelegate.m in Sources */,
 				494C10DE1A4DE20600664E17 /* IMANetworkEngine.m in Sources */,
 				AA4A8DF81A4A7D9800B9AC78 /* main.m in Sources */,
+				494C10F61A4DF37C00664E17 /* SubCategoryModel.m in Sources */,
 				AA4A8DFE1A4A7D9800B9AC78 /* TestImaginamos.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,4 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CategoryModel" representedClassName="CategoryModel" syncable="YES">
+        <attribute name="categoryCreatedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryEnabled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryUpdatedDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DishModel" representedClassName="DishModel" syncable="YES">
+        <attribute name="dishCreatedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishEnabled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishLeftImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishRightImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishSubCategoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishUpdatedDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SubCategoryModel" representedClassName="SubCategoryModel" syncable="YES">
+        <attribute name="subCategoryAdditionEnable" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subCategoryCategoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subCategoryCreatedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subCategoryEnabled" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subCategoryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subCategoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subCategoryUpdatedDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CategoryModel" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="DishModel" positionX="-36" positionY="81" width="128" height="195"/>
+        <element name="SubCategoryModel" positionX="-54" positionY="45" width="128" height="150"/>
+    </elements>
 </model>
