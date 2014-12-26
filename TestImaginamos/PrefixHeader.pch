@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  TestImaginamos
+//
+//  Created by DAVID.VELARDE on 12/26/14.
+//  Copyright (c) 2014 Imaginamos. All rights reserved.
+//
+
+#ifndef TestImaginamos_PrefixHeader_pch
+#define TestImaginamos_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#include "Constants.h"
+#import "NSDictionary+Utility.h"
+
+#endif

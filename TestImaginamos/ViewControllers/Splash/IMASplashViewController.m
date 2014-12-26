@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Imaginamos. All rights reserved.
 //
 
-#import "IMAViewController.h"
+#import "IMASplashViewController.h"
 
-@interface IMAViewController ()
+@interface IMASplashViewController ()
 
 @end
 
-@implementation IMAViewController
+@implementation IMASplashViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

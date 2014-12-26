@@ -33,10 +33,10 @@
                                 <exclude reference="R5b-RB-3vr"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="m6b-SD-WhP"/>
-                                <exclude reference="e3h-Wx-2ii"/>
-                                <exclude reference="J3k-1S-ho8"/>
                                 <exclude reference="H8f-jZ-WLP"/>
+                                <exclude reference="J3k-1S-ho8"/>
+                                <exclude reference="e3h-Wx-2ii"/>
+                                <exclude reference="m6b-SD-WhP"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -44,8 +44,8 @@
                                 <include reference="R5b-RB-3vr"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="e3h-Wx-2ii"/>
                                 <include reference="H8f-jZ-WLP"/>
+                                <include reference="e3h-Wx-2ii"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -53,8 +53,8 @@
                                 <include reference="R5b-RB-3vr"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="m6b-SD-WhP"/>
                                 <include reference="J3k-1S-ho8"/>
+                                <include reference="m6b-SD-WhP"/>
                             </mask>
                         </variation>
                     </view>
@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="1255" y="429"/>
         </scene>
-        <!--View Controller-->
+        <!--Splash View Controller-->
         <scene sceneID="jZg-xf-GxN">
             <objects>
-                <viewController id="RJ6-o1-vjr" sceneMemberID="viewController">
+                <viewController id="RJ6-o1-vjr" customClass="IMASplashViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wnQ-xF-25W"/>
                         <viewControllerLayoutGuide type="bottom" id="Vz0-FZ-mhJ"/>
@@ -93,7 +93,35 @@
                     <view key="view" contentMode="scaleToFill" id="BCn-F9-Ahe">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="15" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="i19-Vb-vTi">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="ysO-ru-Yn9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ysO-ru-Yn9" id="iMX-pC-a32">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="600" height="336"/>
+                                </variation>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="i19-Vb-vTi"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="i19-Vb-vTi"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="5Xq-7V-8oP"/>
                 </viewController>
